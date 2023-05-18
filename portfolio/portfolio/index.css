@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora:ital@1&family=Playfair+Display:ital@1&display=swap');
+:root{
+    --MediumVioletRed:#C71585;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+}
+.c1{
+    background: black;
+}
+.c1 img{
+    height: 30rem;
+    width: 27rem;
+    align-items: right;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 5%;
+    margin-left: 70%;
+    border:.7rem solid var(--MediumVioletRed);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.l{
+    color: #C71585;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul li{
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #C71585;
+    transition: .4s;
+}
+.c2{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%)
+}
+h1{
+    color: aliceblue;
+    margin: 20px 0px 20px;
+    font-size: 65px;
+}
+h2{
+    color: #C71585;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h3{
+    color: #C71585;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.c3 form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.c3 form input{
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #C71585;
+    color: aliceblue;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+}
+.c3 form input:hover{
+    background-color: transparent;
+    border: 2px solid #C71585;
+    cursor: pointer;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background: black;
+}
+.about img{
+    height: 25rem;
+    width: 23rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 5%;
+    margin-left: 5%;
+    border:.7rem solid var(--MediumVioletRed);
+}
+.c5{
+    width: 550px;
+}
+.c4{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.c5 h2{
+    margin-top: 20px;
+    color: #C71585;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.c5 h4{
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    background: black;
+}
+.c5 p{
+    color: #fcfcfc;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #C71585;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #C71585;
+    cursor: pointer;
+}
+.project{
+    width: 100%;
+    padding: 100px 0px;
+    background: black;
+}
+.ti h2{
+    color: #C71585;
+    font-size: 65px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    background: #191919;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #C71585;
+}
+h4{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+    background: #191919;
+}
+.para p{
+    background: #191919;
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+.card .button{
+    background-color: #C71585;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #C71585;
+    cursor: pointer;
+}
+.contact{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact p{
+    background: #191919;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact h2{
+    background: #191919;
+    color: #C71585;
+    font-size: 60px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.contact form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.contact form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #C71585;
+    outline: none;
+    background: #191919;
+    border-radius: 30px;
+}
+.contact form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #C71585;
+    color: aliceblue;
+    top: 6px;
+    right: 6px;
+}
+.contact form input:last-child:hover{
+    background-color: transparent;
+    border: 2px solid #C71585;
+    cursor: pointer;
+}
+.f{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.f .p1{
+    font-size: 30px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.f .p2{
+    color: aliceblue;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.media{
+    display: flex;
+}
+.media a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #C71585;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.media a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
